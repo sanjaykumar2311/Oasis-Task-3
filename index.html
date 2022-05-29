@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TASK3</title>
+</head>
+<style>
+    .bodyy .box{
+        text-align: center;
+        margin-top: 0%;
+        margin-left: 50%;
+    }
+</style>
+<body>
+    <script src="script.js"></script>
+    <header>
+            <div class="header">
+<marquee scrollamount="28" direction="right"><h1 >TEMPERATURE CONVERTER</h1></marquee>
+        </div>
+    </header>
+    <section>
+        <div class="bodyy" >  
+            <br>     
+            <h3><b>Travel from Celsius to Farenheit</b></h3>
+            <br>
+            <div class="box" ><br><br><br> 
+                <label for="celsius"><strong>CELSIUS (°C): </strong></label><br>
+                <input type="number" id="celsius" oninput="toFahrenheit()">
+                </div>
+                <br><br><br><br><br><br><br><br><br>
+                <div class="box">
+                <label for="fahrenheit" ><strong>FARENHEIT (°F): </strong></label><br>
+                <input type="number" id="fahrenheit" oninput="toCelsius()">
+        </div>
+        </div>
+    </section>
+</body>
+</html>
